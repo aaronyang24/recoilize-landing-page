@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Navbar from './Components/Navbar';
 import LandingPage from './Components/LandingPage';
 import TimeTravelSection from './Components/TimeTravelSection';
