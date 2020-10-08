@@ -11,17 +11,7 @@ body {
     font-family: 'Playfair Display', serif;
     height: 100%;
 }
-/* .nav-bar {
-    margin-left: 25px;
-    font-size: 18px;
-    border: none;
-    background-color: black;
-    color: white;
-    list-style-type: none;
-    text-decoration: none;
-    justify-content: flex-end; 
-} 
-*/
+
 div ul {
     list-style-type: none;
     margin: 0;
@@ -62,15 +52,82 @@ div ul li a {
     justify-content: flex-start;
     flex-direction: column;
     padding: 0 0 0 15px;
+    margin: 50px 0 50px 0;
+    position: relative;
 }
 
 #landing h1 {
     font-weight: 100;
-    font-size: 130px;
-    margin: 15px 0 15px 15px;
+    font-size: 12em;
+    margin: 55px 0 15px 15px;
 }
 
 #landing h2 {
     font-weight: 100;
-    margin: 0 0 0 20px;
+    margin: 50px 0 25px 20px;
+    font-size: 1.5em;
+
+}
+
+#landing img {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 1100px;
+    top: 40px;
+    z-index: -1;
+    opacity: 50%;
+}
+/* fading in animation */
+.fade-in {
+    animation: fadeIn 3.5s;
+}
+@keyframes fadeIn {
+    from { 
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-later {
+    animation: fadeInLater 9s;
+}
+
+@keyframes fadeInLater {
+    from { 
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Time travel gif section */
+
+#timetravel-container h2 {
+    font-weight: 100;
+}
+
+#timetravel-container {
+    margin-top: 150px;
+    display: inline-flex;
+    justify-content: center;
+    /* direction: ltr; */
+    /* margin: 50px; */
+    text-align: right;
+    align-items: center;
+    width: 100%;
+}
+
+#timetravel-container div {
+    margin: 100px auto;
+
+}
+
+/* Playground section */
+
+#playground-section {
+    
 }
