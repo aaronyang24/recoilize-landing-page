@@ -33,12 +33,28 @@ div ul {
 div ul li {
     cursor: pointer;
     text-align: center;
-    margin: 15px 15px 0 25px;
+    margin: 15px 25px 0 0px;
+    font-size: 20px;
 }
 
 div ul li a {
     text-decoration: none;
     color: white;
+}
+
+#linkedin-logo, #github-logo {
+    border-radius: 100px;
+    margin: 0px;
+    height: 35px;
+}
+
+#github-logo {
+    background-color: white;
+}
+
+#linkedin-logo {
+    background-color: #2867B2;
+    fill:  #2867B2;
 }
 
 #landing {
