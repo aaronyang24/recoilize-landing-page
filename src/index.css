@@ -107,6 +107,22 @@ div ul li a {
     }
 }
 
+/* scroll transition */
+
+/* [data-scroll] {
+    transition: all 2s;
+}
+[data-scroll='in'] {
+    opacity: 1;
+    transform: translateX(0)
+}
+[data-scroll='out'] {
+    opacity: 0;
+    transform: translateX(-200);
+} */
+
+
+
 .section-title-left {
     /* add styling for h2 on top of all sections */
     font-weight: 100;
@@ -254,3 +270,4 @@ div ul li a {
 .flex-col {
     flex-direction: column;
 }
+

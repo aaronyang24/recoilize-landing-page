@@ -3,7 +3,7 @@ import ToggleGif from '../assets/interpolate.gif';
 
 export default function TimeTravelSection() {
     return (
-        <div id="toggle-div">
+        <div id="toggle-div" className="scroll-fade">
             {/* fix the formatting of this */}
             <h2 className="section-title-right">#ToggleMultipleGraphs</h2>
             <div id="toggle-container">
